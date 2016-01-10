@@ -1,8 +1,8 @@
 ---
 title: "Reproducible Research - Assignment 1"
 author: "Maria Fernandez Carcedo"
-date: "13 November 2015"
-output: html_document
+date: "10 January 2016"
+output: pdf_document
 ---
 
 ##Introduction
@@ -41,7 +41,7 @@ The variables included in this dataset are:
  
 We will dowload the data from the working directory:
 ```{r download data, echo=TRUE, results='asis'}
-setwd("~/Desktop/WD data analysis/RepResAs1")
+setwd("~/Desktop/WD")
 x <-read.csv("./activity.csv", header=TRUE, sep= ",", stringsAsFactors=FALSE)
 summary(x)
 ```
